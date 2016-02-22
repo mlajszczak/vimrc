@@ -129,13 +129,13 @@ nnoremap <silent><leader>O O<Esc>j
 noremap <Leader>nt :NERDTree<CR>
 
 " Shortcut for opening .vimrc
-noremap <Leader>ev :vsp ~/.vimrc<CR>
+noremap <Leader>ev :vsp <C-r>=resolve(expand("~/.vimrc"))<CR><CR>
 
 " Shortcut for opening .bashrc
-noremap <Leader>eb :vsp ~/.bashrc<CR>
+noremap <Leader>eb :vsp <C-r>=resolve(expand("~/.bashrc"))<CR><CR>
 
 " Shortcut for opening .zshrc
-noremap <Leader>ez :vsp ~/.zshrc<CR>
+noremap <Leader>ez :vsp <C-r>=resolve(expand("~/.zshrc"))<CR><CR>
 
 " Shortcut for sourcing .vimrc
 nnoremap <leader>sv :source ~/.vimrc<CR>
