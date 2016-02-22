@@ -149,8 +149,9 @@ nnoremap <leader>s :mksession!<CR>
 
 " Open ag.vim
 nnoremap <leader>aa :Ag!<space>-S<space>
-nnoremap <leader>aj :Ag!<space>--java<space>-S<space>
-nnoremap <leader>as :Ag!<space>--css<space>-S<space>
+nnoremap <leader>ajj :Ag!<space>--java<space>-S<space>
+nnoremap <leader>ass :Ag!<space>--css<space>-S<space>
+nnoremap <leader>ajs :Ag!<space>--js<space>-S<space>
 
 " Switch between relativenumber and number
 nnoremap <leader>tn :call ToggleNumber()<CR>
@@ -179,7 +180,7 @@ nnoremap <leader>tt <C-^>
 nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gc :Gcommit<cr>
 nnoremap <leader>gw :Gwrite<cr>
-nnoremap <leader>ga :Gread<cr>
+nnoremap <leader>gr :Gread<cr>
 nnoremap <leader>gl :Glog<cr>
 nnoremap <leader>gd :Gdiff<cr>
 nnoremap <leader>du :diffupdate<cr>
