@@ -54,8 +54,12 @@ filetype plugin indent on    " required
 "
 " Reasonable tab settings
 set tabstop=4
+set softtabstop=4
 set shiftwidth=4
 set expandtab
+
+" Backspace config
+set backspace=indent,eol,start
 
 " Always show the statusline
 set laststatus=2
