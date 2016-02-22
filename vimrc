@@ -150,6 +150,7 @@ nnoremap <leader>s :mksession!<CR>
 " Open ag.vim
 nnoremap <leader>aa :Ag!<space>-S<space>
 nnoremap <leader>aj :Ag!<space>--java<space>-S<space>
+nnoremap <leader>as :Ag!<space>--css<space>-S<space>
 
 " Switch between relativenumber and number
 nnoremap <leader>tn :call ToggleNumber()<CR>
