@@ -110,8 +110,8 @@ syntax on
 " Highlight matching parenthesis
 set showmatch
 
-" All fold open when opening a file
-set foldlevelstart=20
+" *.swp files are annoying
+set noswapfile
 
 " Use solarized colors
 let g:solarized_termcolors=256
