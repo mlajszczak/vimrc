@@ -215,7 +215,7 @@ function! ToggleNumber()
 endfunc
 
 " Strips trailing whitespace at the end of files
-autocmd BufWritePre * :call <SID>StripTrailingWhitespaces()
+nnoremap <leader>tw :call <SID>StripTrailingWhitespaces()<cr>
 function! <SID>StripTrailingWhitespaces()
     " Save last search & cursor position
     let _s=@/
