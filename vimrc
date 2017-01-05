@@ -185,6 +185,10 @@ nnoremap <leader>gl :Glog<cr>
 nnoremap <leader>gd :Gdiff<cr>
 nnoremap <leader>du :diffupdate<cr>
 
+" switch to/from hex
+nnoremap <leader>h :%!xxd<cr>
+nnoremap <leader>hr :%!xxd -r<cr>
+
 " ctrlp settings
 let g:ctrlp_match_window = 'bottom,order:ttb'
 let g:ctrlp_custom_ignore = {
