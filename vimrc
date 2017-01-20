@@ -28,15 +28,18 @@ Plugin 'Lokaltog/vim-powerline'
 
 Plugin 'tpope/vim-fugitive'
 
-Plugin 'guns/vim-clojure-static'
-
 Plugin 'tpope/vim-fireplace'
-
-Plugin 'vim-scripts/paredit.vim'
 
 Plugin 'kien/rainbow_parentheses.vim'
 
 Plugin 'lepture/vim-velocity'
+
+Plugin 'dleonard0/pony-vim-syntax'
+
+Plugin 'rust-lang/rust.vim'
+
+Plugin 'lambdatoast/elm.vim'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
