@@ -155,6 +155,7 @@ nnoremap <leader>aa :Ag!<space>-S<space>
 nnoremap <leader>ajj :Ag!<space>--java<space>-S<space>
 nnoremap <leader>ass :Ag!<space>--css<space>-S<space>
 nnoremap <leader>ajs :Ag!<space>--js<space>-S<space>
+nnoremap <leader>ajc :Ag!<space>--cpp<space>-S<space>
 
 " Switch between relativenumber and number
 nnoremap <leader>tn :call ToggleNumber()<CR>
